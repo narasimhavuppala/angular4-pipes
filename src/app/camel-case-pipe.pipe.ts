@@ -5,8 +5,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class CamelCasePipePipe implements PipeTransform {
 
-  transform(value: string, args?: any): any {
-    return value.toUpperCase();
+  transform(value: string): any {
+
+    return value.toLowerCase();
   }
 
 }

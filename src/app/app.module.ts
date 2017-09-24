@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { AppComponent } from './app.component';
 import { CamelCasePipePipe } from './camel-case-pipe.pipe';
+import { MycustomPipeDemoPipe } from './mycustom-pipe-demo.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CamelCasePipePipe
+    CamelCasePipePipe,
+    MycustomPipeDemoPipe
   ],
   imports: [
     BrowserModule

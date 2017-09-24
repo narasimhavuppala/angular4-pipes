@@ -16,7 +16,7 @@ export class AppComponent {
   alphabets= ['a', 'b', 'c', 'd', 'e'];
 
   //courseCompletion = 0.5;
-  courseCompletion = 0.512345;
+  courseCompletion = 0.0512345;
 
   pi = 3.141592;
   e = 2.718281828459045;
